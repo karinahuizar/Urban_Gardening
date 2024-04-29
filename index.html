@@ -68,17 +68,57 @@
       }
 
       .image-button {
-        background-color: black;
+        background-color: #a7b99e;
         color: white;
       }
 
       .image-button:hover {
-        background-color: darkgrey;
+        background-color: #535a3b;
         color: white;
       }
 
       .nav-link.active {
         color: black;
+      }
+      .nav-pills .nav-link.active {
+        background-color: #a7b99e;
+        color: white;
+      }
+      .svg-container {
+        width: 100%;
+        height: 225px;
+        background-size: cover;
+        background-position: center;
+      }
+      .svg-container:hover #hover-text {
+        opacity: 1;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-text {
+        flex: 1;
+      }
+
+      .d-flex {
+        justify-content: space-between;
+        align-items: center;
+      }
+      .card h5 {
+        margin: 0; /* Remove default margin */
+        text-align: center; /* Center text horizontally */
+        display: flex;
+        align-items: center; /* Center text vertically */
+        justify-content: center; /* Center text horizontally */
       }
     </style>
   </head>
@@ -122,6 +162,242 @@
         </div>
       </div>
     </div>
+    <!-- ! New Arrivals -->
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">New Arrivals</h1>
+        </div>
+      </div>
+    </section>
+    <!-- ! END New Arrivals -->
+    <!-- ! New Arrivals Pictures -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <div
+              class="svg-container"
+              style="
+                background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/906/original/markus-spiske-S6ieGQAD5pU-unsplash.jpg?1714421476');
+              "
+            >
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                viewBox="0 0 100 100"
+                focusable="false"
+              >
+                <title>Basil</title>
+              </svg>
+            </div>
+            <h5>
+              <text> Basil (Ocimum basilicum) </text>
+            </h5>
+            <div class="card-body">
+              <p class="card-text">
+                Basil is a fragrant herb known for its distinctive aroma and
+                flavor, making it a favorite in many cuisines worldwide. It's
+                easy to grow and thrives in containers or small garden spaces.
+                With its bright green leaves and delightful scent, basil adds
+                freshness to salads, pasta dishes, and even cocktails.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">$25.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div
+              class="svg-container"
+              style="
+                background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/909/original/yousef-espanioly-tCYVMWt0b9k-unsplash.jpg?1714422319');
+              "
+            >
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                viewBox="0 0 100 100"
+                focusable="false"
+              ></svg>
+            </div>
+            <h4><text>Succulents</text></h4>
+            <div class="card-body">
+              <p class="card-text">
+                Succulents are low-maintenance plants that come in a wide
+                variety of shapes, colors, and sizes. Their thick, fleshy leaves
+                and stems store water, allowing them to thrive in dry conditions
+                with minimal watering. Perfect for urban dwellers with limited
+                space, succulents add a touch of greenery to any indoor
+                environment and are excellent for beginners.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">$35.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div
+              class="svg-container"
+              style="
+                background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/914/original/zoe-schaeffer-OQjefa8JEWc-unsplash.jpg?1714424281');
+              "
+            >
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                viewBox="0 0 100 100"
+                focusable="false"
+              ></svg>
+            </div>
+            <h5>
+              <text>
+                Cherry Tomatoes (Solanum lycopersicum var. cerasiforme)
+              </text>
+            </h5>
+            <div class="card-body">
+              <p class="card-text">
+                Cherry tomatoes are small, flavorful tomatoes that are ideal for
+                growing in containers on balconies or windowsills. They produce
+                an abundance of bite-sized fruits that are perfect for snacking,
+                salads, and cooking. With proper care and sunlight, cherry
+                tomato plants can yield a continuous harvest throughout the
+                growing season.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">$45.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div
+              class="svg-container"
+              style="
+                background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/918/original/rocknwool-r56oO1V5oms-unsplash.jpg?1714425108');
+              "
+            >
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                viewBox="0 0 100 100"
+                focusable="false"
+              ></svg>
+            </div>
+            <h5><text> Lavender (Lavandula spp.) </text></h5>
+
+            <div class="card-body">
+              <p class="card-text">
+                Lavender is a versatile herb known for its calming fragrance and
+                beautiful purple flowers. It's a drought-tolerant plant that
+                thrives in sunny locations with well-draining soil. Lavender is
+                not only a lovely addition to gardens but also has many
+                practical uses, including aromatherapy, culinary applications,
+                and natural insect repellent.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">$55.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div
+              class="svg-container"
+              style="
+                background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/919/original/fukayamamo-9K2mR61LG4s-unsplash.jpg?1714425318');
+              "
+            >
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                viewBox="0 0 100 100"
+                focusable="false"
+              ></svg>
+            </div>
+            <h5><text> Spider Plant (Chlorophytum comosum) </text></h5>
+
+            <div class="card-body">
+              <p class="card-text">
+                Spider plants are popular indoor plants known for their
+                air-purifying qualities and easy care. They feature long,
+                arching leaves adorned with tiny white flowers, giving them a
+                distinctive appearance. Spider plants thrive in indirect light
+                and are perfect for hanging baskets or as trailing plants on
+                shelves or tabletops.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">$65.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div
+              class="svg-container"
+              style="
+                background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/922/original/eleanor-chen-IytUViSv3GQ-unsplash.jpg?1714425488');
+              "
+            >
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                viewBox="0 0 100 100"
+                focusable="false"
+              ></svg>
+            </div>
+            <h5><text> Mint (Mentha spp.) </text></h5>
+
+            <div class="card-body">
+              <p class="card-text">
+                Mint is a fast-growing herb prized for its refreshing fragrance
+                and versatile culinary uses. It's an excellent choice for urban
+                gardens, as it can be grown in containers to prevent its
+                invasive tendencies. From peppermint to spearmint, there are
+                many varieties to choose from, each with its own unique flavor
+                profile. Mint is perfect for adding zest to beverages, desserts,
+                and savory dishes.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">$75.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! END New Arrivals Pictures -->
     <div class="container sectionOne" style="margin-top: 100px">
       <p>
         Gardening ipsum dolor sit amet, consectetur adipiscing elit. Sed in
